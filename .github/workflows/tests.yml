@@ -1,14 +1,12 @@
-# .github/workflows/tests.yml
-
 name: Ejecutar pruebas unitarias
 
-
-on: [push]
-  branches:
-      - dev # o el nombre de tu rama principal
+on:
+  push:
+    branches:
+      - dev
   pull_request:
     branches:
-      - dev # o el nombre de tu rama principal
+      - dev
 
 jobs:
   test:
