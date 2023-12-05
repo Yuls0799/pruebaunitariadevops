@@ -7,7 +7,7 @@ on: [push]
       - dev # o el nombre de tu rama principal
   pull_request:
     branches:
-      - main # o el nombre de tu rama principal
+      - dev # o el nombre de tu rama principal
 
 jobs:
   test:
