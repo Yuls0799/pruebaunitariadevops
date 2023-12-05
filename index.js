@@ -1,3 +1,5 @@
-const sumar = (a, b) => a + b;
+function sumar(a, b) {
+  return a + b;
+}
 
-  module.exports = sumar;
+module.exports = sumar;
