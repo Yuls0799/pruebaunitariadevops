@@ -3,6 +3,11 @@
 name: Ejecutar pruebas unitarias
 
 on: [push]
+  branches:
+      - dev # o el nombre de tu rama principal
+  pull_request:
+    branches:
+      - main # o el nombre de tu rama principal
 
 jobs:
   test:
